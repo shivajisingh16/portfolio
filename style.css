@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+  height: 11vh;
+  width: 100%;
+  background-color:#19a4db;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+#logo{
+  padding: 0 50px;
+  font-family: "Cedarville Cursive", cursive;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  min-width: 20%;
+  text-shadow: 30px solid black
+}
+.links{
+  display: flex;
+  min-width: 30%;
+  gap: 20px;
+  font-weight: 800;
+  padding: 0 20px;
+  letter-spacing: 2px;
+}
+.links a:hover{
+  color: #fff; 
+  text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9, 0 0 40px #00fff9, 0 0 50px #00fff9, 0 0 60px #00fff9, 0 0 70px #00fff9;
+}
+.neon-text {
+  color: #fff;
+  text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9, 0 0 40px #00fff9, 0 0 50px #00fff9, 0 0 60px #00fff9, 0 0 70px #00fff9;
+}
+.about{
+  background-color: #191F36;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left{
+  position: relative;
+  top: 1vw;
+  width: 50%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center; 
+  padding: 6vw;
+  /* background-color: red; */
+}
+.left h2{
+  font-size: 5vw;
+  font-weight:900;
+  word-spacing: 8px;
+  letter-spacing: 4px;
+}
+.left h4{
+  letter-spacing: 2px;
+  font-size: 3vw;
+  font-weight: 500;
+}
+.left p{
+  margin: 2vw 0;
+  line-height: 2rem;
+  font-size: 1.3vw;
+  font-weight: 300;
+}
+.left button{
+  background-color: #19a4db;
+  width: 8vw;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 1vw;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.left button:hover{
+ border: 2px solid white;
+ background-color: transparent;
+}
+.right{
+  width: 50%;
+  position: relative;
+  /* background-color: blue; */
+}
+.right img{
+  height: 40vw;
+  position: absolute;
+  top: 15vh;
+  right: 2vh;
+}
+
+.page2{
+  height: 100vh;
+  background:linear-gradient(#19a4db  ,#191F36 );
+}
+.page2 h3{
+  position: relative;
+  top: 3vw;
+  left: 4vw;
+  letter-spacing: 0.5vw;
+  font-size: 2vw;
+}
+.card{
+  width: 20vw;
+  min-height: 50vh;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: #191F36;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+.card i{
+  font-size: 4vw;
+  color: #19a4db;
+}
+.card h4{
+  font-size: 2vw;
+  margin: 2vw;
+  letter-spacing: 1px;
+}
+.card p{
+  text-align: center;
+  line-height: 2vw;
+  font-weight: 200;
+  font-size: 1vw;
+}
+.card button{
+  padding:  8px 20px;
+  border-radius: 10px;
+  background-color:#19a4db ;
+  color: white;
+  cursor: pointer;
+  font-size: 19px;
+  border: none;
+  margin-top: 20px;
+
+}
+.card:hover{
+  scale: 1.02;
+  border: 4px solid #19a4db ;
+}
+.box{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  align-items: center;
+}
+.page3{
+  height: 100vh;
+  background-color:#191F36;
+}
+.page3 h3{
+  color: white;
+  padding: 3vw;
+  font-size: 3vw;
+}
+.proj-card{
+  height:13vw ;
+  border-radius: 10px;
+  width: 18vw;
+  background-color:#111528;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.card1{
+  background-image: url("https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062004.jpg?size=626&ext=jpg&ga=GA1.2.760804.1690995948&semt=ais");
+}
+.card2{
+  background-image: url("https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040412.jpg?size=626&ext=jpg&ga=GA1.2.760804.1690995948&semt=ais");
+}
+.card3{
+  background-image: url("https://img.freepik.com/free-photo/programming-background-collage_23-2149901779.jpg?size=626&ext=jpg&ga=GA1.2.760804.1690995948&semt=ais");
+}
+.card4{
+  background-image: url("https://img.freepik.com/free-photo/programming-background-collage_23-2149901783.jpg?size=626&ext=jpg&ga=GA1.2.760804.1690995948&semt=ais");
+}
+.card5{
+  background-image: url("https://img.freepik.com/premium-photo/cartoon-tiny-young-programmers-coders-working-with-computers_1165404-9849.jpg?size=626&ext=jpg&ga=GA1.2.760804.1690995948&semt=ais");
+}
+.card6{
+  background-image: url("https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010133.jpg?size=626&ext=jpg&ga=GA1.2.760804.1690995948&semt=ais");
+}
+.card7{
+  background-image: url("https://img.freepik.com/free-photo/programming-background-collage_23-2149901788.jpg?size=626&ext=jpg&ga=GA1.2.760804.1690995948&semt=ais");
+}
+.card8{
+  background-image: url("https://img.freepik.com/free-photo/programming-background-collage_23-2149901771.jpg?size=626&ext=jpg&ga=GA1.2.760804.1690995948&semt=ais");
+}
+.projects{
+  width: 80%;
+  margin: 0 auto;
+}
+.proj-card:hover{
+  border: 1px solid white;
+  scale: 1.1;
+}
+.window{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+.page4{
+  height: 100vh;
+  background:linear-gradient(#19a4db  ,#191F36 80% );
+  width: 100%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  height: 35vw;
+}
+.form{
+  position: relative;
+  top: 4vw;
+  display: flex;
+  flex-direction: column;
+}
+.form input{
+  width: 20vw;
+  padding: 1vw;
+  border-radius: 10px;
+  color: grey;
+  border: none;
+  background-color: #191F36;
+}
+.second{
+  margin: 1vw 0; 
+}
+.form textarea{
+  background-color: #191F36;
+  width: 42vw;
+  height: 10vw;
+  padding: 1vw;
+  color: grey;
+  border: none;
+  border-radius: 10px;
+}
+.form button{
+  padding:  8px 20px;
+  border-radius: 10px;
+  background-color:#19a4db ;
+  color: white;
+  cursor: pointer;
+  font-size: 19px;
+  border: none;
+  margin-top: 20px;
+  border: 2px solid transparent;
+}
+.form button:hover{
+  border: 2px solid white;
+  background-color: transparent;
+}
+.fourth{
+  display: flex;
+  align-items: center;
+  padding:  0 1vw;
+  justify-content: space-between;
+}
+.form i{
+  font-size: 2.5vw;
+  color:#13182b;
+  padding: 1vw;
+  cursor: pointer;
+}
+.page4 h3{
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 1.5vw;
+}
+.footer{
+  color: white;
+  font-weight: 500;
+  position: relative;
+  margin-top: 3vw;
+  left: 45%;
+}
